@@ -1,0 +1,17 @@
+{
+    "name": "remote-app",
+    "version": "1.0.0",
+    "description": "remote",
+    "main": "BeverageTestDrive.js",
+    "scripts": {
+        "build": "node tools/cleanup.js && tsc -p tsconfig.json",
+        "start": "npm run build && node dist/BeverageTestDrive.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Santiago Rodriguez",
+    "license": "ISC",
+    "dependencies": {
+        "@types/readline-sync": "^1.4.8",
+        "readline-sync": "^1.4.10"
+    }
+}

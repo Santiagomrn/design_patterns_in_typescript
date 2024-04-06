@@ -1,0 +1,13 @@
+{
+    "name": "gumball-app",
+    "version": "1.0.0",
+    "description": "gumball",
+    "main": "GumballMachineTestDrive.js",
+    "scripts": {
+        "build": "node tools/cleanup.js && tsc -p tsconfig.json",
+        "start": "npm run build && node dist/GumballMachineTestDrive.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Santiago Rodriguez",
+    "license": "ISC"
+}
